@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner animado</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="contenedor">
+        <video class="background" width="640" height="480" autoplay muted loop playsinline>
+            <source src="img/background.mp4" type="video/mp4">
+            <source src="img/background.webm" type="video/webm">
+            <img src="img/background-img.png" alt="Imagen fondo">
+        </video>
+        <div class="banner">
+            <div class="header">
+                <div class="logo">
+                    <img src="img/logo.png" alt="Logo">
+                </div>
+                <div class="user">
+                    <div id="icono" class="user--icono">
+                        <img src="img/icono-goku.png" alt="Icono goku">
+                    </div>
+                    <div class="user--nombre">
+                        <p>CAPIDEV</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contenido">
+                <div class="informacion">
+                    <div class="informacion--contenido">
+                        <h1 class="informacion--titulo">CAPIDEV</h1>
+                        <div>
+                            <p class="informacion--parrafo">Lorem Ipsum is simply dummy text of</p>
+                            <p class="informacion--parrafo">the printing and typesetting industry.</p>
+                        </div>
+                        <div class="informacion--btn">
+                            <button type="button">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="animacion">
+                    <div class="goku">
+                        <img src="img/goku.png" alt="Goku imagen">
+                    </div>
+                    <div class="rayos">
+                        <img src="img/rayos.png" alt="Rayos imagen">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
